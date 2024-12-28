@@ -1,0 +1,20 @@
+---
+sidebar_label: 'Hi!'
+sidebar_position: 1
+---
+
+## tips技巧
+:::tip[Useful things]
+    这样做事情真的对我来说很酷
+:::
+
+## 现在来试一下mdx
+export const Highlight =  ({children ,color}) => {
+    return <span>
+        <button style={{backgroundColor: 'pink', borderRadius: '5px'}} onClick={() => {
+            alert('Don\'t Click me')
+        }}>{children}</button>
+    </span>
+};
+
+This is the MDX <Highlight>hahaha</Highlight>
