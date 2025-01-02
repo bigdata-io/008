@@ -74,23 +74,27 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      // image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: '大数据智能团队',
         logo: {
-        //   alt: 'BigData',
-          src: 'img/docusaurus.png',
+          alt: 'BigData',
+          src: 'img/logo.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '前端',
           },
+          // configure the top-bar
+          
+          {to: '/deep-learning', label: '深度学习', position: 'left'},
+          {to: '/backend', label: '后端', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/bigdata-io/',
             label: 'GitHub',
             position: 'right',
           },
@@ -111,10 +115,6 @@ const config = {
           {
             title: '关于我们',
             items: [
-              // {
-              //   label: 'Blog',
-              //   to: '/blog',
-              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/bigdata-io',
