@@ -76,7 +76,7 @@ const config = {
       // Replace with your project's social card
       // image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '大数据智能团队',
+        title: 'BIGDATA',
         logo: {
           alt: 'BigData',
           src: 'img/logo.png',
@@ -101,28 +101,30 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: '关于我们',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/bigdata-io',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} SWPU BigData`,
+        style: 'light',
+        // links: [
+        //   {
+        //     title: 'Docs',
+        //     items: [
+        //       {
+        //         label: 'Tutorial',
+        //         to: '/docs/intro',
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: '关于我们',
+        //     items: [
+        //       {
+        //         label: 'GitHub',
+        //         href: 'https://github.com/bigdata-io',
+        //       },
+        //     ],
+        //   },
+        // ],
+        copyright: `
+        Copyleft © 2018-${new Date().getFullYear()} BigData Studio
+        `,
       },
       prism: {
         theme: prismThemes.github,

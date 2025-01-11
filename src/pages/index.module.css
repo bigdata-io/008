@@ -8,9 +8,10 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: white;
-  color: #2cb6f6;
+  background-color: #2cb6f6;
+  color: white;
 }
+
 
 @media screen and (max-width: 996px) {
   .heroBanner {
@@ -23,4 +24,13 @@
   align-items: center;
   justify-content: center;
   border-radius: 2px;
+  color: #2cb6f6;
+}
+
+.button .button--secondary .button--lg {
+  color: #2cb6f6;
+}
+
+.button-word {
+  color: #2cb6f6;
 }
