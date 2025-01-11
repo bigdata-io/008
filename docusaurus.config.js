@@ -18,7 +18,7 @@ const config = {
   url: 'https://bigdata-io.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/doc/',
+  baseUrl: '/008/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
