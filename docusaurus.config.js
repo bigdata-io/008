@@ -94,7 +94,7 @@ const config = {
           {to: '/backend', label: '后端', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/bigdata-io/',
+            href: 'https://github.com/bigdata-io/', 
             label: 'GitHub',
             position: 'right',
           },
