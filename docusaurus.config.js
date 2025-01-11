@@ -82,17 +82,18 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: '前端',
-          },
-          // configure the top-bar
-          
-          {to: '/deep-learning', label: '深度学习', position: 'left'},
-          {to: '/backend', label: '后端', position: 'left'},
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/docs/deep-learning', label: '大数据', position: 'right'},
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: '前端',
+          // },
+          // // configure the top-bar
+          {to: '/docs/frontend', label: '前端', position: 'right'},
+          {to: '/docs/backend', label: '后端', position: 'right'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/docs/intro', label: 'Welcome!', position: 'left'},
           {
             href: 'https://github.com/bigdata-io/', 
             label: 'GitHub',
@@ -102,26 +103,7 @@ const config = {
       },
       footer: {
         style: 'light',
-        // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Tutorial',
-        //         to: '/docs/intro',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: '关于我们',
-        //     items: [
-        //       {
-        //         label: 'GitHub',
-        //         href: 'https://github.com/bigdata-io',
-        //       },
-        //     ],
-        //   },
-        // ],
+
         copyright: `
         Copyleft © 2018-${new Date().getFullYear()} BigData Studio
         `,
