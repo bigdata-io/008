@@ -13,6 +13,12 @@ body {
   font-family: "Punctuation SC", "Inter", ui-sans-serif, system-ui, "PingFang SC", "Noto Sans CJK SC", "Noto Sans SC", "Heiti SC", "Microsoft YaHei", "DengXian", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.title-logo {
+  margin-bottom: 2px;
+  width: 100px;
+  height: 100px;
+}
+
 
 :root {
   --ifm-color-primary: #2e8555;

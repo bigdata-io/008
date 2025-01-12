@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'SWPU大数据智能团队',
+  title: '大数据智能团队',
   tagline: 'Learning from coding',
-  favicon: 'img/logo.png',
+  favicon: 'img/bigdata-logo.svg',
 
   // Set the production url of your site here
   url: 'https://bigdata-io.github.io/',
@@ -23,7 +23,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'bigdata-io', // Usually your GitHub org/user name.
-  projectName: 'doc', // Usually your repo name.
+  projectName: '008', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -79,7 +79,7 @@ const config = {
         title: 'BIGDATA',
         logo: {
           alt: 'BigData',
-          src: 'img/logo.png',
+          src: 'img/bigdata-logo.svg',
         },
         items: [
           {to: '/docs/deep-learning', label: '大数据', position: 'right'},
@@ -105,7 +105,7 @@ const config = {
         style: 'light',
 
         copyright: `
-        Copyleft © 2018-${new Date().getFullYear()} BigData Studio
+        Copyleft © SWPU 2018-${new Date().getFullYear()} BigData Studio
         `,
       },
       prism: {

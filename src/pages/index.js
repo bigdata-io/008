@@ -4,14 +4,21 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
+import Logo from '@site/static/img/bigdata-logo.svg'
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import '../css/custom.css'
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+  const Svg = require('@site/static/img/bigdata-logo.svg').default
   return (
+    <>
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
+        {/* <Logo className='title-logo' /> */}
+        {/* <Svg className={`title-logo`} role="img" /> */}
+         {/* <img src={Logo} alt="BigData Logo" className="title-logo" /> */}
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
@@ -25,7 +32,8 @@ function HomepageHeader() {
         </div>
       </div>
     </header>
-  );
+    </>
+ );
 }
 
 export default function Home() {
