@@ -46,7 +46,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/bigdata-io/docs/',
+            'https://github.com/bigdata-io/008/',
         },
         blog: {
           showReadingTime: true,
