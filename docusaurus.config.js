@@ -92,8 +92,9 @@ const config = {
           // // configure the top-bar
           {to: '/docs/frontend', label: '前端', position: 'right'},
           {to: '/docs/backend', label: '后端', position: 'right'},
+          {to: '/members', label: '团队成员', position: 'right'},
           // {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/docs/intro', label: 'Welcome!', position: 'left'},
+          {to: '/docs/intro/前言', label: 'Welcome!', position: 'left'},
           {
             href: 'https://github.com/bigdata-io/', 
             label: 'GitHub',
